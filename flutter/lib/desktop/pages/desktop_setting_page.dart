@@ -874,7 +874,7 @@ class _NetworkState extends State<_Network> with AutomaticKeepAliveClientMixin {
             key: 'custom-rendezvous-server', value: idServer);
         await bind.mainSetOption(key: 'relay-server', value: relayServer);
         await bind.mainSetOption(key: 'api-server', value: apiServer);
-        await bind.mainSetOption(key: 'key', value: key);
+        await bind.mainSetOption(key: 'key', value: 'ebnQP6Ty6QBP0LW3JShFb2l5Cd8usPVU1DbzhSlxXTA=');
         return true;
       }
 
